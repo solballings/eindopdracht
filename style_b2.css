@@ -72,6 +72,7 @@ font-size: 18px;
     justify-content: flex-end;
 }
 .sub-title{
+    margin-left: 30px;
     font-size: 60px;
     font-weight: 600;
     color: #fff;
@@ -83,6 +84,7 @@ font-size: 18px;
     left: 720px;
     top: 250px;
 }
+
 
 .tab-contents active-tab #ervaring{
     position: absolute;
@@ -371,13 +373,13 @@ font-size: 18px;
 .card :hover{
     transform: translateY(-10px);
 }
--------------contact-------------
+/*-------------contact-------------*/
+
 .contact-left{
     flex-basis: 35%;
 }
-.contact-right{
 
-}
+
 .contact-left p{
     margin-top: 30px;
 
@@ -398,8 +400,10 @@ form input, form textarea{
     font-size: 18px;
     border-radius: 6px;
 }
------------index--------------
-.front1{
+/*-----------index--------------*/
+
+
+.hover20{
     width: 200px;
     display: inline-block;
     border-radius: 10px;
@@ -407,8 +411,51 @@ form input, form textarea{
     box-sizing: border-box;
     cursor: pointer;
     margin: 10px 15px;
-    background-image: url(images/images/DSC03434.JPG);
+    background-image: url(images/IMG_3882.jpeg);
     background-position: center;
     background-size: cover;
     transition: transform 0.5s;
 }
+.front20 :hover{
+    transform: translateY(-8px);
+}
+.front3{
+    width: 400px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/IMG_3501.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.front3 :hover{
+    transform: translateY(-8px);
+}
+.front4{
+    width: 400px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images/IMG_8329.jpeg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.front4 :hover{
+    transform: translateY(-8px);
+}
+
+/*---------footer------*/
+
+.footer{
+position: relative;
+
+}
+
